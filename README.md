@@ -1,2 +1,2 @@
 # rsschool-cv
-## https://github.com/desavin87/rsschool-cv/blob/gh-pages/cv
+## https://desavin87.github.io/rsschool-cv/cv
