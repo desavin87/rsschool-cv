@@ -7,13 +7,14 @@ html {
 }
 
 body {
-	font-family: "Arsenal SC", sans-serif;
-	min-height: 100vh;
-	margin: 0;
-	padding: 0;
 	display: flex;
    flex-direction: column;
    justify-content: space-between;
+	font-family: "Arsenal SC", sans-serif;
+	font-size: 18px;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 .header {
@@ -21,6 +22,7 @@ body {
 	background-color: #5F9EA0;
 }
 .main {
+	background-color: whitesmoke;
 	border: 1px solid red;
 }
 .footer {
@@ -51,4 +53,43 @@ body {
 
 .nav-link:hover {
 	transform: scale(1.5);
+	color: red;
+}
+
+.section {
+}
+.section-title {
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		color: black;
+}
+.contacts-list {
+	list-style-type: none;
+}
+
+.contacts-item {
+	margin-bottom: 10px;
+}
+
+.contacts-item:last-child {
+	margin-bottom: 0;
+}
+.contacts-item a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: black;
+}
+
+.photo {
+	display: flex;
+	align-items: center;
+}
+
+.photo img {
+	max-height: 250px;
+	max-width: 300px;
+	border-radius: 25px;
+	margin-right: 15px;
 }
