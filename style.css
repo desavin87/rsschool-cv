@@ -1,3 +1,206 @@
-h1 {
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+	font-family: "Arsenal SC", sans-serif;
+	font-size: 18px;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+}
+
+.header {
+	background-color: #5F9EA0;
+}
+
+.footer {
+	background-color: #5F9EA0;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section {
+	width: 40%;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 50px;
+	transition: all 0.7s ease;
+	color: whitesmoke;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	transform: scale(1.5);
+	color: red;
+}
+
+.section-title {
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		color: black;
+}
+.contacts-list {
+	list-style-type: none;
+}
+
+.contacts-item {
+	margin-bottom: 10px;
+	transition: all 0.7s ease;
+}
+
+.contacts-item a:hover {
+	color: #5F9EA0;
+}
+
+.contacts-item:last-child {
+	margin-bottom: 0;
+}
+.contacts-item a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: black;
+}
+
+.photo {
+	display: flex;
+	align-items: center;
+}
+
+.photo img {
+	max-height: 250px;
+	max-width: 300px;
+	border-radius: 25px;
+	margin-right: 15px;
+}
+
+.summary-text {
+	margin-top: 0;
+}
+
+.skills_list {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+}
+.skills_item img {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.courses ul {
+	padding-left: 20px;
+	margin: 0;
+}
+
+.courses li {
+	list-style-type: upper-roman;
+}
+
+.courses p {
+	margin: 5px 0;
+}
+
+.projects ul {
+	display: flex;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.projects li {
+	transition: all 0.7s ease;
+}
+
+.projects li:hover {
+	transform: scale(1.1);
+}
+
+.projects-list-item img {
+	width: 180px;
+	height: 180px;
+	padding: 0 2.5px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.education h2 {
+	margin-bottom: 10px;
+}
+
+.education span {
 	font-size: 20px;
+	font-weight: 700;
+}
+
+.education p {
+	margin: 0;
+}
+
+.english h2 {
+	margin-bottom: 10px;
+}
+
+.english p {
+	margin-top: 0;
+}
+
+.footer-info {
+	display: flex;
+	align-items: center;
+}
+
+.footer-info p {
+	font-size: 20px;
+}
+
+.footer-info img {
+	width: 80px;
+	height: 80px;
+	padding-left: 15px;
+}
+
+.footer-logo img {
+	width: 70%;
+	height: 70%;
+	border-radius: 25px;
+}
+
+.footer-logo a {
+	text-decoration: none;
 }
